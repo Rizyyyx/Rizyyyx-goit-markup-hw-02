@@ -1,0 +1,163 @@
+.container {
+  margin: 0 auto;
+}
+
+.header-jostyfay {
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.portfolios-studi {
+  list-style: none;
+  margin: 0;
+}
+
+.portfolios-studi a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin: 0;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.business-section {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #2e2f42;
+}
+
+.services-content {
+  color: #ffffff;
+}
+
+.services-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.services-content button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Features-flex ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.kabinu-developerow {
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+.team-list {
+  margin: 0 auto;
+}
+
+.team-member {
+  background-color: #fff;
+
+  transition: transform 0.2s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-15px);
+}
+
+.team-member h3 {
+  margin: 32px 0 8px;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #434455;
+}
+
+.footer-dark {
+  background-color: #2e2f42;
+
+  color: #fff;
+
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+.logoses {
+  margin-top: 100px;
+  margin-left: 156px;
+  margin-right: 1169px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+.logoses span {
+  color: #4d5ae5;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+.portfolio-list {
+  list-style: none;
+
+  margin: 0;
+}
+
+.portfolio-list li {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+}
+
+.portfolio-list h3 {
+  font-size: 20px;
+  margin: 16px 16px 8px 16px;
+  color: #2e2f42;
+}
+
+.portfolio-list p {
+  font-size: 16px;
+  margin: 0 16px 16px 16px;
+  color: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
