@@ -187,11 +187,6 @@ body {
   color: #2e2f42;
 }
 
-.portfolio-item img {
-  inline-size: 360px;
-  block-size: auto;
-}
-
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
