@@ -87,12 +87,12 @@ body {
   text-decoration: none;
 }
 /* Секція */
-.business-section {
+.business_section {
   background-color: #2e2f42;
 }
 
 /* Заголовок */
-.hero-title {
+.hero_title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -102,7 +102,7 @@ body {
 }
 
 /* Кнопка */
-.order-button {
+.order_button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -113,7 +113,7 @@ body {
   cursor: pointer;
   margin-top: 20px;
 }
-.order-button:hover,
-.order-button:focus {
+.order_button:hover,
+.order_button:focus {
   background-color: #404bbf;
 }
