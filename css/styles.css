@@ -188,9 +188,8 @@ body {
 }
 
 .portfolio-item img {
-  src: ./images;
-  alt: "Banking App";
   inline-size: 360px;
+  block-size: auto;
 }
 
 .portfolio-title {
