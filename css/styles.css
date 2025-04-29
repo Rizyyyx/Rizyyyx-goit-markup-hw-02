@@ -50,89 +50,302 @@ body {
   color: #404bbf;
 }
 
-.header {
-  /* Стилі для хедера */
-  .header-section {
-    background-color: #ffffff;
-  }
+/* Стилі для хедера всее кароче подряд */
 
-  /* Логотип */
-  .logo-webstudio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-  }
+/* Базовые стили */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 
-  /* Span всередині логотипа */
-  .logo-accent {
-    color: #2e2f42;
-  }
+/* Сброс стилей */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  /* Навігація */
-  .main-navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+a {
+  text-decoration: none;
+}
 
-  /* Список меню */
-  .menu-list {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
-  /* Посилання меню */
-  .menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-    transition: color 250ms ease;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-  /* Ховер і фокус для меню */
-  .menu-link:hover,
-  .menu-link:focus {
-    color: #404bbf;
-  }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
-  /* Адрес */
-  .contact-info {
-    font-style: normal;
-  }
+/* Стили для хедера */
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
 
-  /* Список контактів */
-  .contact-list {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-  }
+.header-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  /* Посилання контактів */
-  .contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-    transition: color 250ms ease;
-  }
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
 
-  /* Ховер і фокус для контактів */
-  .contact-link:hover,
-  .contact-link:focus {
-    color: #404bbf;
-  }
+.logo-webstudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.logo-accent {
+  color: #2e2f42;
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+  display: block;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Первая секция (hero) */
+.business-section {
+  background-color: #2e2f42;
+  padding: 188px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+.order-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+/* Вторая секция (Features) */
+.features-section {
+  padding: 120px 0;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Третья секция (Team) */
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-member {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  flex-basis: calc((100% - 72px) / 4);
+  overflow: hidden;
+}
+
+.team-info {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Четвертая секция (Portfolio) */
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-image {
+  width: 360px;
+}
+
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Футер */
+.footer-dark {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-studio {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
 }
